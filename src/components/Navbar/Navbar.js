@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import '../index.css';
+import './navbar.css';
 
 
 
 class Navbar extends Component {
-    render(){
-        
+    render(){        
         return (
         <ul className = 'navList'>
             <li>South Park Click Game</li>
@@ -15,8 +14,6 @@ class Navbar extends Component {
         </ul>
         );
     }
-
-
 };
 
 export default Navbar;
