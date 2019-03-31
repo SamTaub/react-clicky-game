@@ -1,5 +1,6 @@
 import React from 'react';
-import './charactercard.css';
+import './style.css';
+
 
 function CharacterCard(props){
     return(

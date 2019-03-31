@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Cartman",
-        "image": "../assets/images/cartman.jpg"
+        "image": "./images/cartman.jpg"
     },
     {
         "id": 2,
         "name": "Awesome-O",
-        "image": "../assets/images/awesomeo.jpg"
+        "image": "./images/awesomeo.jpg"
     },
     {
         "id": 3,
         "name": "Butters",
-        "image": "../assets/images/butters.jpg"
+        "image": "./images/butters.jpg"
     },
     {
         "id": 4,
         "name": "Heidi",
-        "image": "../assets/images/heidi.jpg"
+        "image": "./images/heidi.jpg"
     },
     {
         "id": 5,
         "name": "Kenny",
-        "image": "../assets/images/kenny.jpg"
+        "image": "./images/kenny.jpg"
     },
     {
         "id": 6,
         "name": "Kyle",
-        "image": "../assets/images/kyle.jpg"
+        "image": "./images/kyle.jpg"
     },
     {
         "id": 7,
         "name": "Mint Berry Crunch",
-        "image": "../assets/images/mintberrycrunch.jpg"
+        "image": "./images/mintberrycrunch.jpg"
     },
     {
         "id": 8,
         "name": "Mr. Mackey",
-        "image": "../assets/images/mrmackey.jpg"
+        "image": "./images/mrmackey.jpg"
     },
     {
         "id": 9,
         "name": "Randy",
-        "image": "../assets/images/randy.jpg"
+        "image": "./images/randy.jpg"
     },
     {
         "id": 10,
         "name": "Stan",
-        "image": "../assets/images/stan.jpg"
+        "image": "./images/stan.jpg"
     },
     {
         "id": 11,
         "name": "Token",
-        "image": "../assets/images/token.jpg"
+        "image": "./images/token.jpg"
     },
     {
         "id": 12,
         "name": "Wendy",
-        "image": "../assets/images/wendy.jpg"
+        "image": "./images/wendy.jpg"
     }
 ]
