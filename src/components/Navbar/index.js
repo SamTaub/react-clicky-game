@@ -4,13 +4,14 @@ import './style.css';
 
 
 class Navbar extends Component {
+    
     render(){        
         return (
         <ul className = 'navList'>
             <li>South Park Click Game</li>
-            <li><button>View Rules</button></li>
-            <li>Current Score: </li>
-            <li>High Score:</li>
+            <li>{this.props.status}</li>
+            <li>Current Score: {this.props.currentScore}</li>
+            <li>High Score: {this.props.highScore}</li>
         </ul>
         );
     }

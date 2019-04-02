@@ -3,8 +3,11 @@ import './style.css';
 
 
 function CharacterCard(props){
+    
+    
+
     return(
-        <div className="card p-2 mb-1">
+        <div className="card p-2 mb-1" onClick={props.onClick} id={props.id}>
             <div className="cardImage">
                 <img className="characterImage" alt={props.name} src={props.image} />
             </div>
