@@ -5,11 +5,15 @@
     padding: 25px;
     text-align: center;
     background-color: firebrick;
-    overflow: hidden;
+    top: 0;
 }
 
 li {
     color: white;
     display: inline;
     padding: 50px;
+}
+
+.title {
+    text-align: left;
 }

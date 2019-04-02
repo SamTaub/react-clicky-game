@@ -8,10 +8,10 @@ class Navbar extends Component {
     render(){        
         return (
         <ul className = 'navList'>
-            <li>South Park Click Game</li>
-            <li>{this.props.status}</li>
-            <li>Current Score: {this.props.currentScore}</li>
-            <li>High Score: {this.props.highScore}</li>
+            <li className = "title">South Park Click Game</li>
+            <li className = "status">{this.props.status}</li>
+            <li className = "currentScore">Current Score: {this.props.currentScore}</li>
+            <li classname = "highScore">High Score: {this.props.highScore}</li>
         </ul>
         );
     }
