@@ -9,7 +9,6 @@ import characters from './characters.json';
 
 class App extends Component {
 
-
   state = {
     characters,
     status: "Click an image to begin!",
@@ -18,42 +17,42 @@ class App extends Component {
     guesses: []
   };
 
+  //ES6 Version of Fisher-Yates Shuffle Algorithm.  Credit to the contributors of this post: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+  shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 
   handleClick = (event) => {
 
+
+    this.shuffleArray(this.state.characters)
+
     this.setState({
       currentScore: this.state.currentScore + 1
-    }, () =>{
-      if(this.state.currentScore >= this.state.highScore){
+    }, () => {
+      if (this.state.currentScore >= this.state.highScore) {
         this.setState({
           highScore: this.state.currentScore
         })
       }
     })
 
-    if(!this.state.guesses.includes(event.currentTarget.id)){
+    if (!this.state.guesses.includes(event.currentTarget.id)) {
       this.setState({
         guesses: this.state.guesses.concat(event.currentTarget.id),
         status: "You guessed correctly!"
-      }, () => {console.log(this.state.guesses)})
-    } else if(this.state.guesses.includes(event.currentTarget.id)){
+      }, () => { console.log(this.state.guesses) })
+    } else if (this.state.guesses.includes(event.currentTarget.id)) {
       this.setState({
-        guesses: this.state.guesses.splice(0,this.state.guesses.length),
+        guesses: this.state.guesses.splice(0, this.state.guesses.length),
         status: "You guessed incorrectly!",
         currentScore: 0
       })
     }
-    // if(this.state.guesses.includes(event.currentTarget.id)){
-    //   alert("You lose")
-    //   this.setState({
-    //     currentScore: 0,
-    //     guesses: this.state.guesses.splice(0,this.state.guesses.length)
-    //   })
-    // }
-    // this.setState({
-    //   guesses: this.state.guesses.concat(event.currentTarget.id)
-    // })
-    // console.log(this.state.guesses);
   }
 
 
