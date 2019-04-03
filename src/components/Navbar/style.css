@@ -6,14 +6,38 @@
     text-align: center;
     background-color: firebrick;
     top: 0;
+    color: white;
+}
+
+#signImage{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-top: -15px;
 }
 
 li {
-    color: white;
     display: inline;
-    padding: 50px;
 }
 
 .title {
-    text-align: left;
+    float: left;
+    font-family: 'Viga', sans-serif;
+}
+
+.highScore{
+    float: right;
+    font-family: 'Viga', sans-serif;
+}
+
+.currentScore{
+    float: right;
+    margin-right: 25px;
+    font-family: 'Viga', sans-serif;
+}
+
+.status{
+    float: middle;
+    margin: 0 auto;
+    font-family: 'Viga', sans-serif;
 }

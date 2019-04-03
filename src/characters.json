@@ -16,8 +16,8 @@
     },
     {
         "id": 4,
-        "name": "Heidi",
-        "image": "./images/heidi.jpg"
+        "name": "Jimmy",
+        "image": "./images/jimmy.jpg"
     },
     {
         "id": 5,
@@ -31,8 +31,8 @@
     },
     {
         "id": 7,
-        "name": "Mint Berry Crunch",
-        "image": "./images/mintberrycrunch.jpg"
+        "name": "Wise One",
+        "image": "./images/wiseone.jpg"
     },
     {
         "id": 8,
