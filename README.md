@@ -1,6 +1,6 @@
 # South Park Click Game
 
-![Click Game Preview Image](/assets/clickpreview.png)
+![Click Game Preview Image](/assets/clickypreview.png)
 
 ## Description
 
