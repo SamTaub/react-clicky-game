@@ -6,6 +6,8 @@
 
 This is a front end application using the popular javascript library React.js.  Users are provided with a South Park themed click game where the objective is to click all 12 images without repeating an image.  Images are rearranged after each click to provide a challenge to the user.  Current score and high scores can be viewed in the top right of the page.  The game will reset after the user wins or loses the game.
 
+[Deployed Version](https://samtaub.github.io/react-clicky-game/)
+
 ## Technologies used
 
 * HTML5
